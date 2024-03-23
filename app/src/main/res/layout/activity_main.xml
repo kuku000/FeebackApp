@@ -33,6 +33,29 @@
         android:layout_weight="1"
         android:src="@drawable/sound"
         />
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:text="Disconnect"
+        android:textColor="@color/white"
+        android:gravity="center"
+        />
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:background="#ffff"
+        />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="connect"
+        />
 
 
 </LinearLayout>
